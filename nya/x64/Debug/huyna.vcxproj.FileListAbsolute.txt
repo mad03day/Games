@@ -1,0 +1,7 @@
+C:\Users\rehio\Documents\GitHub\Game\ComandWork\Game\huyna\x64\Debug\huyna.exe
+C:\Users\rehio\Documents\GitHub\Game\ComandWork\Game\huyna\x64\Debug\huyna.pdb
+C:\Users\MRem\Documents\GitHub\Game\Game\ComandWork\Game\huyna\x64\Debug\nya.exe
+C:\Users\MRem\Documents\GitHub\Game\Game\ComandWork\Game\huyna\x64\Debug\nya.pdb
+C:\Users\MRem\Documents\GitHub\Game\Game\ComandWork\Game\nya\x64\Debug\nya.exe
+D:\Projects\Game Nya\Game\ComandWork\Game\nya\x64\Debug\nya.exe
+C:\Users\MRem\Documents\GitHub\Games\nya\x64\Debug\nya.exe
