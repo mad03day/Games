@@ -144,12 +144,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Controller.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="nya.cpp" />
     <ClCompile Include="player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Block.h" />
+    <ClInclude Include="Controller.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="player.h" />
   </ItemGroup>

@@ -5,21 +5,21 @@
 
 using namespace std;
 
-
-
 #define Map_h
 #ifdef Map_h
 
 class Map
 {
 public:
-    int seed;
+    /*int seed;
     string name = { "map.txt" };
     ofstream map_file;
-    void save_block_in_file(Block blk);
+    void save_block_in_file(Block blk);*/
+
+    float** Create_map(int height, int width);
 
 private:
-
+   
 };
 
 #define MAX_OCTAVES 15

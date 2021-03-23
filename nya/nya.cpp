@@ -12,7 +12,7 @@
 #define speed 0.95
 #define Speed_Animation 0.007 //  Чем меньше число тем больше время между кадрами
 
-float** Create_matrix(int height, int width);
+
 
 using namespace sf;
 using namespace std;
@@ -42,7 +42,7 @@ int main(void)
     Map save;
     //save.save_block_in_file(ground1);
 
-    float** map = Create_matrix(X_map, Y_map);
+    float** map = save.Create_map(X_map, Y_map);
     for (int i = 0; i < X_map; i++)
     {
         for (int j = 0; j < Y_map; j++)
@@ -187,12 +187,3 @@ int main(void)
     return 0;
 }
 
-float** Create_matrix(int height, int width)
-{
-    float** matrix = (float**)malloc(sizeof(float*) * height);
-    for (int i = 0; i < height; i++)
-    {
-        *(matrix + i) = (float*)malloc(sizeof(float) * width);
-    }
-    return matrix;
-}

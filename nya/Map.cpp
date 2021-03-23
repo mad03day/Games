@@ -1,10 +1,14 @@
 #include "Map.h"
 
-void Map::save_block_in_file(Block blk)
+
+float** Map::Create_map(int height, int width)
 {
-    map_file.open(name, ofstream::app);
-    //map_file << blk.id << " " << blk.x << " " << blk.y << " " << blk.colizion << "\n";
-    map_file.close();
+    float** matrix = (float**)malloc(sizeof(float*) * height);
+    for (int i = 0; i < height; i++)
+    {
+        *(matrix + i) = (float*)malloc(sizeof(float) * width);
+    }
+    return matrix;
 }
 
 /*---------------------------------------------------------------------------------------------*/
